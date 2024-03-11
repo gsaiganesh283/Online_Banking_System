@@ -39,12 +39,6 @@
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a href="./?page=transaction/deposit" class="nav-link nav-deposit">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>Deposit</p>
-                          </a>
-                        </li>
-                        <li class="nav-item">
                           <a href="./?page=transaction/withdraw" class="nav-link nav-withdraw">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Withdraw</p>
