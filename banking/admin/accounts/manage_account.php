@@ -36,9 +36,15 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                     </div>
                 </div>
                 <hr>
-                <div class="form-group">
-                    <label class="control-label">Email</label>
-                    <input type="text" class="form-control col-sm-6" name="email" value="<?php echo isset($email)? $email : '' ?>" required>
+                <div class="row">
+                    <div class="form-group col-sm-4">
+                        <label class="control-label">Moblie Number</label>
+                        <input type="text" class="form-control" name="moblie" value="<?php echo isset($moblie)? $moblie : '' ?>" placeholder="+91 xxxxxxxxxx"required>
+                    </div>
+                    <div class="form-group col-sm-5">
+                        <label class="control-label">Email</label>
+                        <input type="text" class="form-control" name="email" value="<?php echo isset($email)? $email : '' ?>" required>
+                    </div>
                 </div>
                 
                 <div class="form-group">
