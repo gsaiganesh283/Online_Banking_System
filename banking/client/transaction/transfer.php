@@ -49,7 +49,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                 
                 <hr>
                 <div class="form-group">
-                    <label class="control-label">Deposit Amount</label>
+                    <label class="control-label">Transfer Amount</label>
                     <input type="number" step='any' min = "0" class="form-control col-sm-6 text-right" name="balance" value="0" required>
                 </div>
             </form>
